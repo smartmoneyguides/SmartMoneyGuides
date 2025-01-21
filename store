@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering Personal Finance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .banner {
+            text-align: center;
+            background: url('banner-image.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+        }
+        .banner h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .banner p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .banner .cta {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 5px;
+        }
+        .ebooks {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .ebooks h2 {
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .ebooks .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .ebooks .grid-item {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .ebooks img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .ebooks h3 {
+            margin: 10px 0;
+        }
+        .ebooks p {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .ebooks .btn {
+            display: inline-block;
+            background-color: #28A745;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mastering Personal Finance</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#ebooks">E-Books</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="banner" id="home">
+        <h1>Master Financial Success</h1>
+        <p>Explore expert-crafted e-books on personal finance, stock trading, and real estate.</p>
+        <a href="#ebooks" class="cta">Shop E-Books</a>
+        <a href="#about" class="cta">Learn More</a>
+    </section>
+
+    <section class="ebooks" id="ebooks">
+        <h2>Our E-Books</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="personal-finance.jpg" alt="Mastering Personal Finance">
+                <h3>Mastering Personal Finance</h3>
+                <p>A comprehensive guide to achieving financial independence and managing your money wisely.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+            <div class="grid-item">
+                <img src="stock-trading.jpg" alt="Stock Trading Secrets">
+                <h3>Stock Trading Secrets</h3>
+                <p>Unlock the secrets of successful trading with this beginner-friendly guide.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+            <div class="grid-item">
+                <img src="real-estate.jpg" alt="Real Estate Investing">
+                <h3>Real Estate Investing</h3>
+                <p>Learn how to build wealth through smart real estate investments.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about" style="padding: 50px 20px; text-align: center;">
+            <h2>About Us</h2>
+            <p>We are passionate about empowering individuals to achieve financial success through easy-to-understand e-books on personal finance, investing, and wealth management. With years of expertise, our goal is to simplify complex concepts and make financial literacy accessible to all.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact" style="padding: 50px 20px; text-align: center;">
+            <h2>Contact Us</h2>
+            <form action="" method="POST" style="max-width: 600px; margin: auto;">
+                <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 10px; margin: 10px 0;">
+                <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin: 10px 0;">
+                <textarea name="message" placeholder="Your Message" rows="5" required style="width: 100%; padding: 10px; margin: 10px 0;"></textarea>
+                <button type="submit" style="background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mastering Personal Finance. All rights reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
